@@ -1,0 +1,25 @@
+{
+  "name": "data-sync-pt4",
+  "version": "1.0.0",
+  "description": "A simple server that streams image data between clients.",
+  "main": "./src/server.js",
+  "dependencies": {
+    "build": "^0.1.4",
+    "emojilib": "^3.0.11",
+    "express": "^4.18.2",
+    "jshint": "^2.9.1",
+    "node-emoji": "^2.1.0",
+    "socket.io": "^4.7.2"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "jshint ./src",
+    "test": "echo \"Test complete.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[A\u001b[B"
+  },
+  "author": "Jake Ben-Tovim",
+  "license": "ISC"
+}
